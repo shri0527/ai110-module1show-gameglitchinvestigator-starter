@@ -25,14 +25,12 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [ ] The game's purpose is to let the user guess the secret number. The user chooses a number from a range and will be givedn some amount of attempts to guess the secret number. The user will also be given hints to decide if they should guess higher or lower depending on their last guess. Points will be deducted for each wrong guess. The user can you also change difficulty levels.
+- [ ] The bugs I found where that the hints were opposite to what they are supposed to be. Another bug that i found was that the scoring logic wasn't working properly. It was dependent on if the guess was even or odd and would sometimes increase points and then other times decrease it. The third buy I found was that the attempt number always started at 1 when it should start at 0.
+- [ ] I fixed all three bugs. For the hints I just had to change the print statements to match the logic since they were backwards. The second fix I made was to deduct points for each wrong guess instead of making it depend on if it was even or odd. The third bug I just had to set the variable to 0.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [ ] ![alt text](image.png)
 
-## 🚀 Stretch Features
 
-- [ ] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here]
